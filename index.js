@@ -4,8 +4,8 @@ const axios = require("axios");
 const app = express();
 app.use(express.json());
 
-const BOT_TOKEN = "YOUR_BOT_TOKEN";
-const CHAT_ID = "YOUR_CHAT_ID";
+const BOT_TOKEN = "8980627295:AAE-bk9y2x6fh_RXFm2qjnc3CTRkecidEgk";
+const CHAT_ID = "886931442";
 
 app.all("/webhook/dowaba", async (req, res) => {
   try {
